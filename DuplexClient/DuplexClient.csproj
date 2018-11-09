@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{15FAE03F-DE44-4CAC-97E3-91CE390F0CC5}</ProjectGuid>
+    <ProjectGuid>{8DFED799-F3F9-4475-AE5D-5468D7D085D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DuplexService</RootNamespace>
-    <AssemblyName>DuplexService</AssemblyName>
+    <RootNamespace>DuplexClient</RootNamespace>
+    <AssemblyName>DuplexClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,9 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Duplex.cs" />
+    <Compile Include="CallBackHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DuplexServiceClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
